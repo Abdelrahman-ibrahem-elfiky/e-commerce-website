@@ -22,10 +22,6 @@ import org.springframework.stereotype.Service;
         ),
         servers = {
                 @Server(
-                        description = "local app",
-                        url = "http://localhost:8090"
-                ),
-                @Server(
                         description = "Rialway app",
                         url = "e-commerce-website-production-593a.up.railway.app"
                 )
