@@ -22,8 +22,7 @@ import org.springframework.stereotype.Service;
         ),
         servers = {
                 @Server(
-                        description = "Rialway app",
-                        url = "e-commerce-website-production-593a.up.railway.app"
+                        description = "Rialway app"
                 )
         },
         security = @SecurityRequirement(
